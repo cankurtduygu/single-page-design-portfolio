@@ -39,6 +39,13 @@
   --spacing-1000: 80px;
 }
 
+body{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    background-color: var(--clr-neutral-200);
+}
+
 .text-preset-1 {
   font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: 56px;
@@ -85,4 +92,24 @@
   font-weight: 700;
   line-height: 150%;
   letter-spacing: 0px;
+}
+
+.container-first{
+    display:flex;
+    justify-content:center;
+}
+
+.text-design{
+    width: 752px;
+    height:149px;
+    text-align: center;
+
+    & h1{
+        color: var(--clr-neutral-900);
+        margin-block-end: 20px;
+    }
+
+    & p{
+        color: var(--clr-neutral-400);
+    }
 }
