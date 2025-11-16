@@ -294,7 +294,8 @@ body{
 .info{
   display: flex;
   justify-content: space-between;
-  margin-block: 120px;
+  margin-block-start: 120px;
+  margin-block-end: 80px;
 }
 
 .info-img{
