@@ -98,7 +98,6 @@ body{
 
 .container-first{
     width : 1100px;
-    height : 737px;
     margin: 0 auto;
     padding-block-start: 32px
 }
@@ -153,8 +152,7 @@ body{
 }
 
 .graphic-design{
-  height: 364px;
-  max-height: 364px;
+  min-height: 364px;
   display: grid;
   grid-template-columns :repeat(6, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -291,6 +289,3 @@ body{
   }
 }
 
-@media screen {
-  
-}

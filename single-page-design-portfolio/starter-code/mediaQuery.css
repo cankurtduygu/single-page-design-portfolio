@@ -1,0 +1,57 @@
+@media (max-width: 768px){
+    .container-first{
+        width: 704px;
+        margin: 0 auto;
+        padding-block-start: 24px;
+
+    }
+  
+  .text-design{
+    max-width: 538px;
+    max-height: 146px;
+
+    & h1{
+        height: 146px;
+        width: 538px;
+        text-align: center  ;
+    }
+
+    & p{
+        width: 596px;
+    }
+  }
+
+   .graphic-design{
+    min-height: 566px;
+    
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+
+    & .pic1 {
+    grid-area : 1/1/3/3;
+  }
+    & .pic2 {
+    grid-area : 1/3/2/3;
+  
+  }
+    & .pic3 {
+    grid-area : 1/4/2/5;
+  }
+    & .pic4 {
+    grid-area : 3/1/4/3;
+    & img{
+      height: 55px;
+    }
+  }
+    & .pic5 {
+    grid-area : 2/3/3/5;
+  }
+
+  & .pic6 {
+    grid-area : 3/3/4/5;
+  }
+ } 
+
+}
