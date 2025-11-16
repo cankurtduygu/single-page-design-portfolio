@@ -324,4 +324,67 @@ body{
     border-radius: 50px;
     height: 56px;
     width: 234px;
+    color: var(--clr-neutral-0);
   }
+
+  /*************** myWork-page Section ***************/
+  .myWork-page{
+    margin: 0;
+    padding: 0;
+    width: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    justify-self:center;
+  }
+
+  .slider-section{
+    display :flex;
+    gap:32px;
+    margin-block:0px;
+  }
+
+  .slider-section img{
+    border-radius: var(--radius-8);
+  }
+  .btn-left,
+  .btn-right{
+    background-color: var(--clr-neutral-900);
+    border: none;
+    border-radius: 50px;
+    height: 64px;
+    width: 64px;
+    color: var(--clr-neutral-0); 
+    margin-bottom:120px
+  }
+
+  .btn-left{
+    margin-inline-end: 16px;
+  }
+
+  /*************** Last Section ***************/
+
+  .last-page{
+    width : 1100px;
+    margin: 0 auto;
+    color: var(--clr-neutral-0);
+  }
+
+  .last-text{
+    width: 540px;
+  }
+
+  .black-section{
+    background-color: var(--clr-neutral-900);
+    border-radius: var(--radius-12);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 80px;
+    padding-inline: 64px;
+    gap:auto;
+    margin-bottom: 48px;
+  }
+
+ 
