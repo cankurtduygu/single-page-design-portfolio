@@ -306,7 +306,7 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: 540px;
+  width: 540px;
   gap: 32px;
 
   & .text-lang{
