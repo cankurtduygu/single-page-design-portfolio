@@ -289,3 +289,39 @@ body{
   }
 }
 
+/*************** Second Section ***************/
+
+.info{
+  display: flex;
+  justify-content: space-between;
+  margin-block: 120px;
+}
+
+.info-img{
+  height: 445px;
+  width: 445px;
+}
+
+.text-teil{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 540px;
+  gap: 32px;
+
+  & .text-lang{
+    color: var(--clr-neutral-400);
+    margin :0;
+  }
+
+  & h1{
+    margin:0;
+  }
+}
+.info-btn{
+    background-color: var(--clr-light-red-500);
+    border: none;
+    border-radius: 50px;
+    height: 56px;
+    width: 234px;
+  }
