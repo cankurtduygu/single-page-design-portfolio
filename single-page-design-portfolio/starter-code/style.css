@@ -99,7 +99,7 @@ body{
 .container-first{
     width : 1100px;
     margin: 0 auto;
-    padding-block-start: 32px
+    padding-block-start: 32px;
 }
 
 .nav{
