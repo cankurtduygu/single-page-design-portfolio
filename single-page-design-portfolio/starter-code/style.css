@@ -100,7 +100,6 @@ body {
 .container-first {
   width: 1110px;
   margin: 32px auto 0 auto;
-  background-color: bisque;
 }
 
 .nav {
@@ -128,7 +127,6 @@ body {
 
   & h1 {
     color: var(--clr-neutral-900);
-    background-color: pink;
   }
 
   & p {
@@ -242,47 +240,61 @@ body {
   color: var(--clr-neutral-0);
 }
 
+
+
+
+
+
 /*************** myWork-page Section ***************/
 .myWork-page {
-  margin: 0;
-  padding: 0;
-  width: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 40px;
-  justify-self: center;
+  
+  width:1237px;
+  margin-inline: auto;
+  margin-block-end:120px;
 }
-
-.slider-section {
+ .myWork-page h1{
+  text-align: center;
+  margin-bottom:0;
+ }
+  
+.myWork-page .slider-section {
   display: flex;
   gap: 32px;
-  margin-block: 0px;
+  margin-block: 32px;
+
 }
 
-.slider-section img {
+.myWork-page .slider-section img {
   border-radius: var(--radius-8);
+  width: 540px;
+  height:250px;/*height normalde 360*/
+}
+
+.btn-section{
+  display:flex;
+  justify-content: center;
+  gap: 16px;
 }
 
 .btn-left,
 .btn-right {
+  
   background-color: var(--clr-neutral-900);
   border: none;
   border-radius: 50px;
   height: 64px;
   width: 64px;
   color: var(--clr-neutral-0);
-  margin-bottom: 120px
+
 }
 
-.btn-left {
-  margin-inline-end: 16px;
-}
+
+
 
 /*************** Last Section ***************/
 
 .last-page {
-  width: 1100px;
+  max-width: 1100px;
   margin: 0 auto;
   color: var(--clr-neutral-0);
 }
@@ -301,4 +313,8 @@ body {
   padding-inline: 64px;
   gap: auto;
   margin-bottom: 48px;
+}
+
+.footer{
+  margin-block-end:64px;
 }
