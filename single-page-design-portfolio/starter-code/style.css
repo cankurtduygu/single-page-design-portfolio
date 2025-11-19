@@ -47,19 +47,12 @@ body {
   background-color: var(--clr-neutral-200);
 }
 
+h1,
 .text-preset-1 {
   font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: 56px;
   font-weight: 700;
   line-height: 130%;
-  letter-spacing: 0px;
-}
-
-.text-present-1-mobile {
-  font-family: 'Plus Jakarta Sans', sans-serif;
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 120%;
   letter-spacing: 0px;
 }
 
@@ -98,13 +91,13 @@ body {
 /*************** First Section ***************/
 
 .container-first {
-  width: 1110px;
+  max-width: 1110px;
   margin: 32px auto 0 auto;
 }
 
 .nav {
-  height: 64px;
-  width: 100%;
+  max-height: 64px;
+  max-width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: start;
@@ -121,7 +114,7 @@ body {
 }
 
 .design-solution {
-  width: 752px;
+  max-width: 752px;
   margin-inline: auto;
   margin-block: 80px;
 
@@ -131,7 +124,7 @@ body {
 
   & p {
     color: var(--clr-neutral-400);
-    width: 568px;
+    max-width: 568px;
     font-family: 'Plus Jakarta Sans', sans-serif;
     text-align: center;
     margin-inline: auto;
@@ -207,7 +200,7 @@ body {
 /*************** Second Section ***************/
 
 .info {
-  width:1110px;
+  max-width:1110px;
   display: flex;
   justify-content: space-between;
   gap:auto;
@@ -221,7 +214,7 @@ body {
 }
 
 .text-teil {
-  width: 540px;
+  max-width: 540px;
   margin-block: auto;
 
   & .text-lang {
@@ -247,8 +240,7 @@ body {
 
 /*************** myWork-page Section ***************/
 .myWork-page {
-  
-  width:1237px;
+  max-width:1237px;
   margin-inline: auto;
   margin-block-end:120px;
 }
@@ -266,7 +258,7 @@ body {
 
 .myWork-page .slider-section img {
   border-radius: var(--radius-8);
-  width: 540px;
+  max-width: 540px;
   height:250px;/*height normalde 360*/
 }
 
@@ -300,10 +292,11 @@ body {
 }
 
 .last-text {
-  width: 540px;
+  max-width: 540px;
 }
 
 .black-section {
+  max-height: 299px;
   background-color: var(--clr-neutral-900);
   border-radius: var(--radius-12);
   display: flex;
