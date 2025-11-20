@@ -1,82 +1,77 @@
-/* @media (max-width: 768px) {
+ @media (max-width: 976px) {
+   body {
+    padding-inline: 2rem;
+  
+  }
+
   .container-first {
-    width: 704px;
-    margin: 0 auto;
-    padding-block-start: 24px;
-
+    margin-block-start: 2rem;
   }
 
-  .text-design {
-    max-width: 538px;
-    max-height: 146px;
-
-    & h1 {
-      height: 146px;
-      width: 538px;
-      text-align: center;
-    }
-
-    & p {
-      width: 596px;
-    }
+   .design-solution {
+    margin-block: 64px;
   }
 
-  .graphic-design {
-    min-height: 566px;
+  h1{
+    width:538px;
+    margin-inline: auto;
+  }
 
+  /*************** Services Section ***************/
+
+  .services-section {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    gap: 20px;
 
-    & .pic1 {
-      grid-area: 1/1/3/3;
-    }
-
-    & .pic2 {
-      grid-area: 1/3/2/3;
-
-    }
-
-    & .pic3 {
-      grid-area: 1/4/2/5;
-    }
-
-    & .pic4 {
-      grid-area: 3/1/4/3;
-
-      & img {
-        height: 55px;
-      }
-    }
-
-    & .pic5 {
-      grid-area: 2/3/3/5;
-    }
-
-    & .pic6 {
-      grid-area: 3/3/4/5;
-    }
+    /* min-block-size: 11.375rem; */
   }
 
-  .info{
-    width: 100%;
+  .box {
     display: flex;
     flex-direction: column;
-    margin: inline 32px;
-    align-items: center;
-    gap: 24px;
+    justify-content: space-between;
+    border-radius: var(--radius-8);
+    padding: 1.25rem;
   }
 
-  .text-teil{
+  .graphic {
+    grid-column: 1/3;
+    grid-row: 1/3;
+  }
+
+  .ui {
+    grid-column: 3/4;
+    grid-row: 1/2;
+  }
+
+  .apps {
+    grid-column: 4/5;
+    grid-row: 1/2;
+  }
+
+  .photography {
+    grid-column: 1/3;
+    grid-row: 3/4;
+  }
+
+  .illustrations {
+    grid-column: 3/5;
+    grid-row: 2/3;
+  }
+
+  .motion {
+    grid-column: 3/5;
+    grid-row: 3/4;
+  }
+
+   /*************** Second Section ***************/
+  .info {
+    
+    margin-block: 80px;
     display: flex;
-    align-items: center;
-    margin-inline: 32px;
     flex-direction: column;
-    text-align: center;   
-    gap: 16px;
-    width: 100%;
-   
+    align-items: center;
   }
 
   .info-img {
@@ -84,13 +79,35 @@
     width: 300px;
   }
 
+  .text-teil {
+    text-align: center;
+  }
+
+  /*************** myWork-page Section ***************/
+  .myWork-page {
+
+    margin-block-end: 40px;
+  }
+
+  .myWork-page .slider-section {
+    gap: 32px;
+    margin-block: 48px;
+
+  }
+
+
   .last-page{
     display: none;
   }
 
-} */
 
-@media (max-width: 480px) {
+} 
+
+
+
+
+
+@media (max-width: 520px) {
 
   body {
     padding-inline: 1rem;
@@ -100,157 +117,146 @@
     margin-block-start: 1.5rem;
   }
 
-  .nav {
-    & .nav-img {
-      height: 48px;
-      width: 48px;
-      margin-block: auto;
-    }
-
-    & .nav-btn {
-
-      padding: 12px 24px 16px 24px;
-      margin-block: auto;
-    }
-
+  .nav .nav-img {
+    height: 48px;
+    width: 48px;
+    margin-block: auto;
   }
+
+  .nav .nav-btn {
+
+    padding: 12px 24px 16px 24px;
+    margin-block: auto;
+  }
+
 
   .design-solution {
     margin-block: 40px;
-
-    & .h1-metin {
-      font-size: 40px;
-      font-weight: 700;
-      line-height: 120%;
-      text-align: center;
-    }
-
   }
 
+  .h1-metin {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 120%;
+  }
+
+/*************** Services Section ***************/
+
   .services-section {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(6, 1fr);
-  gap: 20px;
-  min-block-size: 11.375rem;
-}
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 20px;
+    /* min-block-size: 11.375rem; */
+  }
 
-.box {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  border-radius: var(--radius-8);
-  padding: 1.25rem;
-}
+  .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: var(--radius-8);
+    padding: 1.25rem;
+  }
 
-.graphic {
-  grid-column: 1/3;
-  grid-row: 1/3;
-  
-}
+  .graphic {
+    grid-column: 1/3;
+    grid-row: 1/3;
+  }
 
-.ui {
-  grid-column: 1/2;
-  grid-row: 3/4;
-  
-}
+  .ui {
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
 
-.apps {
-  grid-column: 2/3;
-  grid-row: 3/4;
-  
-}
+  .apps {
+    grid-column: 2/3;
+    grid-row: 3/4;
+  }
 
-.photography {
-  grid-column: 1/3;
-  grid-row: 4/5;
-  background-color: var(--clr-cyan-500);
-}
+  .photography {
+    grid-column: 1/3;
+    grid-row: 4/5;
+  }
 
-.illustrations {
-  grid-column: 1/3;
-  grid-row: 5/6;
-  background-color: var(--clr-light-red-500);
+  .illustrations {
+    grid-column: 1/3;
+    grid-row: 5/6;
+  }
 
-}
+  .motion {
+    grid-column: 1/3;
+    grid-row: 6/7;
+  }
 
-.motion {
-  grid-column: 1/3;
-  grid-row: 6/7;
-  background-color: var(--clr-dark-purple-500);
+  /*************** Second Section ***************/
+  .info {
+    margin-block: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
+  .info-img {
+    height: 300px;
+    width: 300px;
+  }
 
-}
-/*************** Second Section ***************/
-.info {
-  margin-block:80px;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-}
+  .text-teil {
 
-.info-img {
-  height: 300px;
-  width: 300px;
-}
+    text-align: center;
+  }
 
-.text-teil {
+  .text-teil .text-lang {
 
-  text-align: center;
-  & .text-lang {
-    color: var(--clr-neutral-400);
     margin-block: 1.5rem;
 
   }
-}
-
-/*************** myWork-page Section ***************/
-.myWork-page {
- 
-  margin-block-end:64px;
-}
-
-.myWork-page .slider-section {
-  gap: 20px;
-  margin-block: 40px;
-
-}
-
-.myWork-page .slider-section img {
-  max-width: 270px;
-  height:180px;/*height normalde 360*/
-}
-
-.btn-left,
-.btn-right {
-  height: 48px;
-  width: 48px;
-}
-
-/*************** Last Section ***************/
-
-.last-page {
 
 
-}
+  /*************** myWork-page Section ***************/
+  .myWork-page {
 
-.last-text {
-  text-align: center;
-  
-}
+    margin-block-end: 64px;
+  }
 
-.black-section {
-  max-height: 431px;
-  flex-direction: column;
-  padding-block: 40px;
-  padding-inline: 1rem;
-  gap: 40px;
-  margin-bottom: 32px;
-}
+  .myWork-page .slider-section {
+    gap: 20px;
+    margin-block: 40px;
 
-.footer{
-  margin-block-end:24px;
-}
+  }
+
+  .myWork-page .slider-section img {
+    max-width: 270px;
+    height: 180px;
+    /*height normalde 360*/
+  }
+
+  .btn-left,
+  .btn-right {
+    height: 48px;
+    width: 48px;
+  }
+
+  /*************** Last Section ***************/
+
+
+  .last-text {
+    text-align: center;
+
+  }
+
+  .black-section {
+    
+    flex-direction: column;
+    padding-block: 40px;
+    padding-inline: 1rem;
+    gap: 40px;
+    margin-bottom: 32px;
+  }
+
+  .footer {
+    margin-block-end: 24px;
+  }
 
 
 

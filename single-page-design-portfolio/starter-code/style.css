@@ -120,6 +120,7 @@ h1,
 
   & h1 {
     color: var(--clr-neutral-900);
+    text-align: center;
   }
 
   & p {
@@ -214,15 +215,14 @@ h1,
 }
 
 .text-teil {
-  max-width: 540px;
+  width: 540px;
   margin-block: auto;
-
-  & .text-lang {
+}
+.text-lang {
     color: var(--clr-neutral-400);
-
     margin-block: 2rem;
   }
-}
+
 
 .info-btn {
   background-color: var(--clr-light-red-500);
@@ -296,7 +296,7 @@ h1,
 }
 
 .black-section {
-  max-height: 299px;
+  min-height: 299px;
   background-color: var(--clr-neutral-900);
   border-radius: var(--radius-12);
   display: flex;
